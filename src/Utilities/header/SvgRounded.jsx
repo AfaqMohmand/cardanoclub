@@ -1,0 +1,79 @@
+export const SvgRounded = () => {
+  return (
+    <div>
+      <svg
+        width="45"
+        height="75"
+        viewBox="0 0 51 50"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M30.6918 0H17.3583V3.33338H14.0249V6.66676H7.35817V10.0001H4.02479V16.6669H0.691406V23.3337H4.02479V30.0004H0.691406V33.3338H4.02479V40.0006H7.35817V43.3339H10.6915V46.6673H17.3583V50.0007H24.0251V46.6673H27.3584V50.0007H34.0252V46.6673H37.3586V43.3339H44.0253V36.6672H47.3587V33.3338H50.6921V26.667H47.3587V20.0003H50.6921V13.3335H47.3587V10.0001H44.0253V6.66676H47.3587V3.33338H44.0253V6.66676H37.3586V3.33338H30.6918V0ZM27.3584 46.6673V43.3339H30.6918V46.6673H27.3584Z"
+          fill="var(--green-color)"
+        ></path>
+        <rect
+          x="12.6918"
+          y="22.002"
+          width="2.00003"
+          height="5.33341"
+          fill="var(--dark-color)"
+        ></rect>
+        <rect
+          x="16.6918"
+          y="22.002"
+          width="2.00003"
+          height="5.33341"
+          fill="var(--dark-color)"
+        ></rect>
+        <rect
+          x="20.6918"
+          y="22.002"
+          width="2.00003"
+          height="5.33341"
+          fill="var(--dark-color)"
+        ></rect>
+        <rect
+          x="24.6919"
+          y="22.002"
+          width="2.00003"
+          height="5.33341"
+          fill="var(--dark-color)"
+        ></rect>
+        <rect
+          x="28.692"
+          y="22.002"
+          width="2.00003"
+          height="5.33341"
+          fill="var(--dark-color)"
+        ></rect>
+        <rect
+          x="32.692"
+          y="22.002"
+          width="2.00003"
+          height="5.33341"
+          fill="var(--dark-color)"
+        ></rect>
+        <rect
+          x="36.6921"
+          y="22.002"
+          width="2.00003"
+          height="5.33341"
+          fill="var(--dark-color)"
+        ></rect>
+        <defs>
+          <clipPath id="clip0_518_49177">
+            <rect
+              width="22"
+              height="22"
+              fill="white"
+              transform="translate(28 28.0005)"
+            ></rect>
+          </clipPath>
+        </defs>
+      </svg>
+    </div>
+  );
+};

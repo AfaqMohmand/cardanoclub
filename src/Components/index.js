@@ -1,0 +1,10 @@
+export { default as About } from "./about/About";
+export { default as BabyCross } from "./babycrocs/BabyCross";
+export { default as BeforeFooter } from "./beforeFooter/BeforeFooter";
+export { default as CrossClub } from "./crocsclub/CrossClub";
+export { default as Hero } from "./hero/Hero";
+export { default as Info } from "./info/Info";
+export { default as Rewards } from "./rewards/Rewards";
+export { default as Team } from "./team/Team";
+export { default as Transformation } from "./transformation/Transformation";
+export { default as Utility } from "./utility/Utility";

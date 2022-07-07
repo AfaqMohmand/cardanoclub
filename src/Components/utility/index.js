@@ -1,0 +1,12 @@
+export { default as utilityImg01 } from "../../assets/utility-01.png";
+export { default as utilityImg02 } from "../../assets/utility-02.png";
+export { default as utilityImg03 } from "../../assets/utility-03.png";
+export { default as utilityImg04 } from "../../assets/utility-04.png";
+export { default as utilityImg05 } from "../../assets/utility-05.png";
+export { default as utilityImg06 } from "../../assets/utility-06.png";
+export { default as utilityImg07 } from "../../assets/utility-07.png";
+export { default as utilityImg08 } from "../../assets/utility-08.png";
+export { default as utilityImg09 } from "../../assets/utility-09.png";
+export { default as utilityImg10 } from "../../assets/utility-10.png";
+export { default as utilityImg11 } from "../../assets/utility-11.png";
+export { default as utilityImg12 } from "../../assets/utility-12.png";

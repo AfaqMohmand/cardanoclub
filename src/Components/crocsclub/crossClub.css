@@ -1,0 +1,36 @@
+.combineStyle{
+    width: 210px;
+    height: 200px;
+    padding: 12px;
+    border-radius: 30px;
+}
+.crocs-club{
+    max-width: 1230px;
+    overflow: hidden;
+    transform: rotate(-4deg);
+    padding-top: 150px;
+}
+.crocs-club h2{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'VG5000';
+    padding: 20px;    
+}
+@media screen and (max-width:1100px){
+    .crocs-club{
+        max-width: 980px;
+        border: 3px groove white;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:1015px){
+    .crocs-club{
+        max-width: 750px;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:800px){
+    .crocs-club{
+        display: none;
+    }
+}

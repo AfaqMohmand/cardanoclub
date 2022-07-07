@@ -1,0 +1,53 @@
+*{
+    font-size: 15px;
+    font-family: 'TeXGyreHeros', sans-serif;
+}
+.NavbarItems{
+    background-color: var(--black-color);
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.navbar-logo{
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    list-style: none;
+    width: 80vw;
+    justify-content: center;
+    margin-top: 1.6rem;
+}
+.nav-links{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.nav-links-mobile{
+    border: 2px groove red;
+    display: none;
+}
+.menu-icon{
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+.last-item{
+    margin-right: 10px;
+}
+@media screen and (min-width:360px) and (max-width:1020px){
+    .nav-menu{
+        display: none;
+    }
+    .last-item{
+        margin-left: 350px;
+    }
+}
+@media screen and (max-width:625px){
+    .last-item{
+        transform: translateX(-270px);
+    }
+}

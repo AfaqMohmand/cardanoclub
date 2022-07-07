@@ -1,0 +1,12 @@
+.twitter-icon{
+    padding: 10px;
+}
+.two-logos li{
+    position:absolute;
+    transform: translate(40px,90px);
+}
+@media screen and (max-width:950px){
+    .two-logos{
+        display: none;
+    }
+}

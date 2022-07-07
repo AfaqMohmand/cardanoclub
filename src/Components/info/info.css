@@ -1,0 +1,90 @@
+.info h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22.498px;
+    color: var(--green-color);
+    margin: 0px 385.182px 46.5244px 385.169px;
+    padding: 0px 17.5765px;
+    font-family: 'VG5000', sans-serif;
+    letter-spacing: 0.13em;
+    text-shadow: 0px 0px 13.3335px rgb(165 250 0 / 70%);
+}
+.info{
+    transform: translateY(150px);
+}
+.info-card{
+    padding:50px 12px;
+    border-radius: 30px;
+    background-color: #161A1C;
+}
+.info{
+    max-width: 1200px;
+    margin: auto;
+}
+.info .flex div{
+    flex-basis: 25%;
+}
+.info-card img{
+width: 100px;
+height: 100px;
+transform: translateX(70px);
+background-color: #161A1C;
+}
+.info-card h5{
+    background-color: #161A1C;
+    color:var(--green-color);
+    font-size: 31.9103px ;
+    font-family: 'VG5000', sans-serif !important;
+    line-height: 100%;
+    text-align: center;
+}
+.second-child{
+    transform: translateY(50px);
+}
+@media screen and (min-width:360px) and (max-width:550px){
+    .info{
+        margin-top: 100px;
+    }
+    .info .flex div{
+        grid-column: 1/5;
+        padding: 10px;
+        transform: translateX(-3px);
+    }
+    .info h1{
+        transform: translate(-280px,-110px);
+    }
+
+    .info div{
+        transform: translateY(-100px);
+    }
+    .info-card img{
+        transform: translateX(120px);
+    }
+    /* .utility-second-container{
+        margin-top: 20px;
+    }
+    .utility-third-container{
+        margin-top: 4px;
+    } */
+}
+@media screen and (min-width:450px) and (max-width:550px){
+    .info-card img{
+        transform: translateX(180px);
+    }
+}
+@media screen and (min-width:551px) and (max-width:930px){
+    .info-card img {
+        transform: translateX(150px);
+    }
+    .info .flex .media-childTwo-second{
+        grid-column: 3/6;
+    }
+    .info .flex .media-childFouth-first{
+        grid-column: 3/6;
+        grid-row: 3/6;
+        transform: translateY(-80px);
+    }
+    .info .flex .media-childTwo-first{
+        grid-column: 1/3;
+    }
+}

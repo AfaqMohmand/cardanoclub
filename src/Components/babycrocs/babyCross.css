@@ -1,0 +1,102 @@
+.baby-crocs{
+    transform: translateY(400px);
+}
+.first-container{
+    height: 800px;
+    background-color: var(--pink-color);
+}
+.icons-container{
+    background-color:var(--pink-color) ;
+}
+.baby-crocs .grid{
+    grid-gap: 0px;
+}
+.icons-container p{
+    font-size: 19.4431px;
+    font-family: 'VG5000', sans-serif;
+    color: #080808;
+    margin: 0px 0px 31.3546px;
+    padding: 0px 15.1899px;
+    letter-spacing: 0.13em;
+    background-color: var(--pink-color);
+    text-align: left;
+}
+.icons-container h1{
+    font-size: 82.5827px;
+    background-color: var(--pink-color) !important;
+    color: #080808;
+    font-family: 'VG5000', sans-serif;
+    margin: 0px 0px 43.3293px;
+}
+.icon-text{
+    font-size: 18.481px;
+    font-family: 'TeXGyreHeros', sans-serif;
+    background-color: var(--pink-color);
+    margin: 0px 0px 10px;
+    color: #080808;
+    transform: translate(30px,3px);
+    line-height: 140%;
+    font-weight: 400;
+}
+
+.babycrocs-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.second-container{
+    background-color: var(--pink-color);
+}
+.icons img{
+    padding: 5px;
+    background-color: var(--pink-color);
+}
+.specific-icon{
+    background-color: var(--pink-color);
+   padding: 3px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--pink-color);
+    justify-content: flex-start;
+}
+.second-container{
+    height: 800px;
+    background-color: var(--pink-color);
+}
+.second-container img{
+    background-color: var(--pink-color);
+    width: 90%;
+    height: 80%;
+    transform: translateY(90px) scale(0.8);
+}
+@media screen and (min-width:800px){
+    .second-container img{
+        transform: translate(40px,120px) scale(0.7);
+    }
+}
+@media screen and (min-width:360px) and (max-width:790px){
+    .icons-container h1{
+        font-size: 40px;
+    }
+    .icon-text{
+        transform: translateX(-1px);
+        display: block;
+    }
+    .babycrocs-flex{
+        grid-column: 1/3;
+    }
+    .second-container img{
+        height: 70%;
+        width: 90%;
+        transform: translateY(-120px);
+    }
+    .second-container{
+        grid-column: 1/3;
+        height: 400px;
+    }
+}

@@ -1,0 +1,50 @@
+ @import url('http://fonts.cdnfonts.com/css/vg5000');
+ @import url('http://fonts.cdnfonts.com/css/tex-gyre-heros?styles=831,828,830,825,827,824');
+
+:root{
+    --green-color:#a5fa00;
+    --dark-color:#080808;
+    --pink-color:#ff44bf;
+    --gray-color:#525252;
+    --white-color:#fcfcfc;
+}
+*{
+    background-color: #080808;
+    color: #fcfcfc;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.font-vg{
+    font-family: 'VG5000', sans-serif;
+}
+.font-texGyre{
+    font-family: 'TeXGyreHerosCondensed', sans-serif;
+    font-family: 'TeXGyreHeros', sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.grid02{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.grid04{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}

@@ -1,0 +1,99 @@
+.utility-card{
+    padding: 48px 10px 20px;
+    border-radius: 30px;
+    background-color: #161A1C;
+}
+.utility{
+    max-width: 1200px;
+    margin: auto;
+}
+.grid04{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+}
+.utility-card p{
+    font-size: 20px;
+    text-align-last: center;
+    background-color: #161A1C;
+    text-align: center;
+}
+.downward{
+    transform: translateY(70px);
+}
+.utility .flex div{
+    flex-basis: 25%;
+}
+.utility-second-container{
+    transform: translateY(50px);
+}
+.utility-09{
+    margin-top: 20px;   
+}
+.utility-third-container{
+    margin-top: 50px;
+}
+.utility-card img{
+    width: 100px;
+    height: 100px;
+    transform: translateX(70px);
+    background-color: #161A1C;
+}
+.utility h2{
+    text-align: center;
+    font-size: 23.5921px;
+    color: var(--green-color);
+    letter-spacing: 0.13em;
+    margin: 0px  398px 43px;
+    padding: 0px 18.314px;
+    font-family: 'VG5000', sans-serif;
+    margin-top: 150px;
+    text-shadow: 0px 0px 13.3335px rgb(165 250 0 / 70%);
+}
+
+@media screen and (min-width:360px) and (max-width:550px){
+    .utility{
+        transform: translateY(130px);
+    }
+    .utility h2{
+        transform: translate(-280px,-180px);
+    }
+    .utility .flex div{
+        padding: 10px;
+        grid-column: 1/5;
+    }
+    .utility div{
+        transform: translateY(-100px);
+    }
+    .utility-card img{
+        transform: translateX(120px);
+    }
+    .utility-second-container{
+        margin-top: 20px;
+    }
+    .utility-third-container{
+        margin-top: 4px;
+    }
+}
+@media screen and (min-width:450px) and (max-width:550px){
+
+    .utility-card img{
+        transform: translateX(180px);
+    }
+}
+@media screen and (min-width:551px) and (max-width:930px){
+    .utility-card img {
+        transform: translateX(150px);
+    }
+    .utility .flex .media-childTwo-second{
+        grid-column: 3/6;
+    }
+    .utility .flex .media-childFouth-first{
+        grid-column: 3/6;
+        grid-row: 3/6;
+        transform: translateY(-80px);
+    }
+    .utility .flex .media-childTwo-first{
+        grid-column: 1/3;
+    }
+}
